@@ -1,0 +1,260 @@
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=clike+php */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #f8f8f2;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: slategray;
+}
+
+.token.punctuation {
+    color: #f8f8f2;
+}
+
+.namespace {
+    opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+    color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+    color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function {
+    color: #e6db74;
+}
+
+.token.keyword {
+    color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+    color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+
+body {
+    padding-top: 40px;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+.maintitle {
+    font-size: 28px;
+}
+
+.section-dark {
+    background-color: #efefef;
+}
+
+.section-lite {
+    background-color: #fff;
+}
+
+.section {
+    margin-top: 20px;
+    padding: 50px 0px;
+}
+
+.section h2 {
+    font-size: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-element {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #DFE4E5;
+}
+
+.form-element.hide-params {
+    border-bottom: 0;
+}
+
+.footer {
+    background-color: #212121;
+    height: 140px;
+    line-height: 50px;
+    text-align: center;
+    color: #aaa;
+}
+
+.section.footer a {
+    color: #aaa;
+}
+
+.hero {
+    margin-bottom: 50px;
+}
+
+.generate {
+    text-align: center;
+    margin-top: 50px;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: 'Source Code Pro';
+}
+
+#code {
+    background-color: #272822;
+    padding: 20px;
+    font-size: 18px;
+    position: relative;
+}
+
+#copy-code {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    padding: 5px 15px;
+    outline: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.padding-right-0 {
+    padding-right: 0;
+}
+
+.padding-left-0 {
+    padding-left: 0;
+}
+
+.btn.disabled {
+    opacity: 0.4;
+}
+
+.btn-column {
+    padding-top: 25px;
+}
+
+.row-param {
+    background-color: rgba(243, 156, 18, 0.1);
+    margin-top: 5px;
+    padding: 4px 0;
+}
+
+.form-element.hide-params .row-param {
+    display: none;
+}
+
+.row-param > .row {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.row-param > .row h4 {
+    margin: 0;
+}
+
+.row-param > .row h4,
+.row-param > .row .param-option-title > ul,
+.row-param.row-options-sortable > .row .opt-select {
+    display: none;
+}
+
+.row-param > .row:first-child h4,
+.row-param > .row:first-child .param-option-title > ul,
+.row-param > .row:first-child .opt-select {
+    display: block;
+}
+
+.param-value-container > label {
+    padding-top: 5px;
+}
+
+.row-options h4 {
+    font-size: 14px;
+}
